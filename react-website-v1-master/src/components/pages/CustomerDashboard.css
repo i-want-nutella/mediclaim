@@ -1,0 +1,205 @@
+html{
+    scrollbar-width: none;  /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;
+}
+
+.customer-dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    background: transparent;
+    position: fixed;
+}
+
+.customer-policy-list {
+    width: 30%;
+    max-height: 85vh;
+    overflow-y: auto;
+    background: transparent;
+    scrollbar-width: none;  
+    -ms-overflow-style: none; 
+}
+
+/* .customer-dashboard-container h1 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+    position: fixed;
+    background-color: #DEDEDE;
+    width: 30%;
+    top: 9%;
+    text-align: center;
+} */
+
+.customer-policy-list::-webkit-scrollbar {
+    display: none; 
+}
+
+.customer-policy-cards {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1%;
+}
+
+.customer-policy-card {
+    background-color: #f1f1f195;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.39);
+    text-align: center;
+    border-left: 6.5px solid #6d1718;
+    color: #6d1718;
+}
+
+.customer-policy-list h2 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+}
+
+.customer-policy-card p {
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.customer-functions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 5%;
+    /* justify-content: space-between; */
+    overflow-x: auto;
+    max-height: 85vh;
+    overflow-y: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.customer-function-card {
+    width: 50%;
+    height: 65vh;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: transparent;
+    text-align: center;
+    animation: popIn 0.35s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.customer-function-card:hover {
+    transform: scale(1.05);
+}
+
+.customer-function-card-1 {
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: transparent;
+    text-align: center;
+    animation: popIn 0.35s ease-in-out;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-function-card-1:hover {
+    transform: scale(1.05);
+}
+
+.customer-admin-icon {
+    height: 40vh;
+    width: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.customer-functions h3 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+}
+
+.customer-functions p {
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+.customer-btn {
+    width: 102%;
+    background-color: #f1f1f195;
+    border-radius: 30px;
+    color: #380b0c;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.6vh;
+    box-shadow: 0px 0px 5px rgba(89, 89, 89, 0.358);
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    height: 103%;
+    text-decoration: none;
+    font-weight: normal;
+    transition: transform 0.2s ease;
+}
+
+.customer-btn:hover {
+    /* transform: translateY(-5px);  */
+    background-color: #6d1718d8;
+    box-shadow: 2px 2px 12px rgba(89, 89, 89, 0.598);
+    opacity: 100%;
+    color: #f1f1f1;
+    .admin-icon{
+      transform: scale(1.25);
+      opacity: 1.5;
+    }
+    .customer-admin-icon{
+      transform: scale(1.20);;
+    }
+}
+
+.customer-btn-1 {
+    width: 55%;
+    background-color: #f1f1f195;
+    border-radius: 30px;
+    color: #380b0c;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.6vh;
+    box-shadow: 0px 0px 5px rgba(89, 89, 89, 0.358);
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    text-decoration: none;
+    font-weight: normal;
+    transition: transform 0.2s ease;
+}
+
+.customer-btn-1:hover {
+    /* transform: translateY(-5px);  */
+    background-color: #6d1718d8;
+    box-shadow: 2px 2px 12px rgba(89, 89, 89, 0.598);
+    opacity: 100%;
+    color: #f1f1f1;
+    .admin-icon{
+      transform: scale(1.25);
+      opacity: 1.5;
+    }
+    .customer-admin-icon{
+      transform: scale(1.20);;
+    }
+}

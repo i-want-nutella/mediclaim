@@ -1,0 +1,116 @@
+.wrapper_reg1 {
+    width: 44%;
+    height: 85vh;
+    box-shadow: 4px -2px 7.5px #545454b4;
+    padding: 10px 15px;
+    padding-left: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #6d1718;
+    border-top-right-radius: 100rem;
+}
+
+
+.dual h1 {
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.dual h2 {
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-weight: 250;
+    font-size: medium;
+}
+
+.dual form{
+    height: 90vh;
+    padding-left: 8vh;
+    padding-right: 4vh;
+    padding-top: 4vh;
+    width: 60%;
+    position: absolute;
+    top: 1;
+    right: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.input-box-reg {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box-reg input,
+.input-box-reg select {
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border: 1.5px solid #000000;
+    border-radius: 30px;
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 2.6vh;
+    padding: 8px 10px 8px 10px;
+}
+
+.input-box-reg input::placeholder {
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+}
+
+.input-row-reg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    width: 100%;
+}
+
+.dual button {
+    width: 50%;
+    background: #43434369;
+    border: 1.5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(89, 89, 89, 0.358);
+    color: #1a1a1a;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.6vh;
+    transition: transform 0.2s ease;
+    padding: 8px 10px 8px 10px;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+.dual button:hover {
+    background: #30303078;
+    transform: translateY(-1.5px);
+    box-shadow: 8px 8px 5px rgba(89, 89, 89, 0.189);
+}
+
+.login-link p {
+    font-size: 16.5px;
+    text-align: center;
+    margin-top: 10px;
+    color: #00000095;
+    font-family: "Oswald", sans-serif;
+}
+
+.login-link p a {
+    font-size: 17px;
+    margin-left: 2px;
+    color: #000000a5;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.login-link p a:hover {
+    text-decoration: underline;
+}

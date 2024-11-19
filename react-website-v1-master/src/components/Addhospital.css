@@ -1,0 +1,109 @@
+  .text-wrap {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    position: absolute;
+    right: 22%;
+    top: 10%;
+  }
+
+  .text-wrap h1 {
+    color: #6d1718;
+   font-family: "Oswald", sans-serif;
+   font-weight: 500;
+   font-size: 2.6em;
+  }
+
+  .form-wrap input {
+    width: 80%;
+    background: #ffffff;
+    border: none;
+    border-radius: 30px;
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 2.6vh;
+    padding: 8px 10px 8px 10px;
+    outline: none;
+    z-index: 1;
+    margin-top: 8%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
+    }
+
+  .form-wrap input ::placeholder{
+    color: #000000;
+    
+  }
+
+  .hospital-form button {
+    width: 40%;
+    outline: none;
+    background: #434343;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(89, 89, 89, 0.358);
+    color: #b5b5b5;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.6vh;
+    transition: transform 0.2s ease;
+    padding: 8px 10px 8px 10px;
+    margin-top: 8%;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .hospital-form button:hover {
+    background: #303030dc;
+    color: #ffffffdc;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 5px rgba(89, 89, 89, 0.189);
+  }
+
+  .hos-bg-2{
+    background-color: #6d1718;
+    width:26%;
+    height: 55%;
+    border-top-left-radius: 50vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.753);
+  }
+  
+  .hos-bg-1{
+    width:38%;
+    height: 38vh;
+    border-top-left-radius: 150vh;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+    padding-top: 32px;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.568);
+  }
+
+  .hos-bg{
+    /* background-color: #6d1718; */
+    background-color: transparent;
+    width:27%;
+    position: absolute;
+    left:0;
+    top: 0;
+    z-index: 1000;
+    height: 50%;
+    padding-top: 32px;
+    border-bottom-right-radius: 200vh;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.568);
+  }
+
+  .App-title1 {
+    opacity: 0;
+    height: 50px;
+    width: auto;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

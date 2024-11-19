@@ -1,0 +1,133 @@
+.admin-dashboard {
+    all: unset;
+    animation: fadeIn 2s ease-in;
+    text-align: center;
+
+  }
+
+    @keyframes pop {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }}
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .functions{
+    display: flex;
+  }
+
+  .main-content h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+
+  }
+
+  .function-card-1 {
+    background: transparent;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+    transition: transform 0.3s;
+    animation: popIn 0.35s ease-in-out;
+    animation-fill-mode: forwards;
+    margin: 3%;
+    margin-top: 5%;
+  }
+  
+  /* .function-card-1:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .function-card-1:nth-child(2) {
+    animation-delay: 0.7s;
+  }
+  
+  .function-card-1:nth-child(3) {
+    animation-delay: 0.9s;
+  } */
+  
+  @keyframes popIn {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .function-card-1 h3 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .function-card-1 p {
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .admin-icon{
+    height: 40vh;
+    width: auto;
+    transition: transform 0.2s ease;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .admin-icon-1{
+    height: 40vh;
+    width: auto;
+    transition: transform 0.2s ease;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  .function-card-1 .btn {
+    width: 100%;
+    background-color: #f1f1f195;
+    /* border: 1.5px solid #000000; */
+    border-radius: 30px;
+    color: #380b0c;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 2.6vh;
+    box-shadow: 0px 0px 5px rgba(89, 89, 89, 0.358);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    display: block;
+    text-decoration: none;
+    padding: 0;
+  }
+  
+  .function-card-1 .btn:hover {
+    /* transform: translateY(-5px);  */
+    background-color: #6d1718d8;
+    box-shadow: 2px 2px 12px rgba(89, 89, 89, 0.598);
+    opacity: 100%;
+    color: #f1f1f1;
+    .admin-icon{
+      transform: scale(1.25);
+      opacity: 1.5;
+    }
+    .admin-icon-1{
+      transform: scale(1.20);;
+    }
+  }
+  

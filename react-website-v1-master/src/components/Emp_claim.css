@@ -1,0 +1,111 @@
+
+  .claim-form {
+    background:transparent;
+    z-index: 2;
+    width:38%;
+    position: absolute;
+    right:7%;
+    top: 12.5%;
+    padding-top: 32px;
+    /* box-shadow: 0 2px 12px rgba(0, 0, 0, 0.712); */
+  }
+  
+  .claim-form-container h2 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+  }
+
+  .claim-form input, .claim-form select{
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    border-radius: 30px;
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 2.6vh;
+    padding: 8px 10px 8px 10px;
+    outline: none;
+    z-index: 1;
+    margin-top: 8%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.562);
+  }
+
+  .claim-form option{
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 2.6vh;
+  }
+
+  .claim-form input ::placeholder {
+    color: #000000;
+}
+  
+  .claim-form button {
+    width: 40%;
+    outline: none;
+    background: #434343b8;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(89, 89, 89, 0.358);
+    color: #1a1a1a;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.6vh;
+    transition: transform 0.2s ease;
+    padding: 8px 10px 8px 10px;
+    margin-top: 8%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+  
+  .claim-form button:hover {
+    background: #303030dc;
+    color: #ffffffdc;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 5px rgba(89, 89, 89, 0.189);
+  }
+  
+  .claim-bg{
+    background-color: #a4a4a4;
+    width:30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 85vh;
+    border-top-left-radius: 150vh;
+  }
+
+  .claim-bg-1{
+    /* background-color: #6d1718; */
+    width:38%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: 1;
+    height: 35%;
+    padding-top: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.753);
+    border-top-right-radius: 35vh;
+  }
+
+  .claim-bg-2{
+    background-color: #6d1718;
+    width:26%;
+    height: 55%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: 1;
+    padding-top: 32px;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.568);
+    border-top-right-radius: 50vh;
+  }

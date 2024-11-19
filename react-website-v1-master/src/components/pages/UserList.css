@@ -1,0 +1,77 @@
+.claim-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.claim-list td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-family: "Oswald", sans-serif;
+  font-weight: 320;
+  overflow-y: auto;
+}
+
+.claim-list th {
+  font-family: "Oswald", sans-serif;
+  background-color: #6d1718;
+  color: white;
+  position: sticky;
+  top: 50px; 
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
+  z-index: 1000;
+  padding: 10px;
+  font-size: 3vh;
+}
+
+.claim-list th select{
+  border: none;
+  font-family: "Oswald", sans-serif;
+  background-color: #6d1718;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 3vh;
+  outline: none;
+}
+.claim-list th option{
+  outline: none;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 3vh;
+}
+
+.claim-list tr:nth-child(even) {
+  background-color: #d2d2d280;
+}
+
+.claim-list tr:hover {
+  background-color: #6d171860;
+  color: black;
+}
+
+.expanded-remarks h1{
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  font-weight: 320;
+  font-size: 1.6em;
+  color: #6d1718;
+}
+
+.claim-list span {
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  font-weight: 320;
+}
+
+.claim-list p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 320;
+}

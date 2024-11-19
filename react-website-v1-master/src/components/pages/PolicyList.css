@@ -1,0 +1,90 @@
+.policy-list-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden; 
+}
+
+.policy-view-container {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto; 
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.policy-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.policy-card {
+  width: 70%;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(89, 89, 89, 0.358);
+  transition: transform 0.2s ease-in-out;
+}
+
+.policy-card:hover{
+  transform: scale(1.05);
+}
+
+.policy-card h2{
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin-left: 30px;
+}
+
+.policy-card p{
+  font-family: "Oswald", sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.policy-card strong{
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+}
+
+.policy-list button {
+  width: 30%;
+  background: #43434369;
+  border: 0.05px solid #000000;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(89, 89, 89, 0.358);
+  color: #1a1a1a;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  font-size: 3vh;
+  font-weight: 450;
+  transition: transform 0.2s ease;
+  padding: 8px 10px 8px 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.policy-list button:hover {
+  background-color: #6d1718;
+  color: #f1f1f1;
+  transform: translateY(-1.5px);
+  box-shadow: 8px 8px 5px rgba(89, 89, 89, 0.189);
+}

@@ -1,0 +1,132 @@
+body{
+  background-color: #DEDEDE;
+  height: 100%;
+  width: 100%;
+  scrollbar-width: none;  /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none;
+}
+
+.bg h1 {
+  color: #0a0a0a;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 30px;
+  margin-left: 21.5%;
+
+}
+
+.bg ul{
+  position: absolute;
+  margin-top: 1.6%;
+  padding-top: 10px;
+  margin-left: 44%;
+  z-index: 2;
+  opacity: 30%;
+}
+
+
+.bg .input-box input,
+.bg .input-box-1 input,
+.bg .input-box-1 select,
+.bg .input-box-1 option{
+  position: relative;
+  width: 45%;
+  margin: 20px;
+  background: transparent;
+  border: 1.5px solid #000000;
+  border-radius: 30px;
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 2.6vh;
+  padding: 8px 10px 8px 10px;
+}
+
+.bg .input-box-1 input::placeholder,.bg .input-box input::placeholder {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -5px 25px;
+}
+
+.remember-forgot a {
+  color: #5a5a5a;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+  color: #1f1f1f;
+}
+
+.bg button {
+  width: 25%;
+  background: #43434369;
+  border: 1.5px solid #000000;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(89, 89, 89, 0.358);
+  color: #1a1a1a;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.6vh;
+  transition: transform 0.2s ease;
+  padding: 8px 10px 8px 10px;
+  margin: 20px;
+  margin-left: 10%;
+}
+
+.bg button:hover {
+  background: #30303078;
+  transform: translateY(-1.5px);
+  box-shadow: 8px 8px 5px rgba(89, 89, 89, 0.189);
+}
+
+.bg .register-link {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -5px 25px;
+  margin-left: 16%;
+}
+
+.register-link p{
+  color: #5a5a5a;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+.register-link p a {
+  font-size: 17px;
+  margin-left: 2px;
+  color: #3f3f3f;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+
+.bg .design-component{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 43%;
+    height: 87vh;
+    background-color: #6d1718;
+    z-index: -1;
+    border-top-left-radius: 100em;
+    box-shadow: -1px -4px 7.5px #545454b4;
+  }
+
+

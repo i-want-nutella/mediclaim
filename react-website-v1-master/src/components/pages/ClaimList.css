@@ -1,0 +1,165 @@
+
+.hmm table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: transparent;
+  }
+  
+.hmm td {
+    padding: 12px 15px;
+    font-weight: 350;
+    text-align: left;
+    color: black;
+    border-bottom: 1px solid #ddd;
+    font-family: "Oswald", sans-serif;
+    overflow-y: auto;
+  }
+  
+.hmm th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 17px;
+    background-color: #6d1718;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+    position: sticky;
+    top: 50px; 
+  }
+  
+.hmm tbody tr {
+    transition: background-color 0.3s;
+  }
+  
+.hmm tbody tr:hover {
+    background-color: #6d17186b;
+  }
+
+.hmm select{
+    background-color: #6d1718;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    border: none;
+  }
+
+.hmm option{
+    font-family: "Oswald", sans-serif;
+  }
+
+.hmm a {
+    text-decoration: none;
+    color: #6d1718;
+  }
+  
+.hmm a:hover {
+    text-decoration: underline;
+  }
+  
+  .claim-details {
+    position: absolute;
+    background: transparent;
+    height: 89.5vh;
+    width: 50%;
+    padding: 10px;
+    z-index: -1;
+  }
+  
+  .claim-details input {
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 1.5px solid #000000;
+    border-radius: 1vh;
+    width: calc(100% - 22px);
+    font-family: "Oswald", sans-serif;
+    width: 70%;
+    background: transparent;
+  }
+
+  .claim-details input::placeholder {
+    font-size: 17px;
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .claim-details h2{
+    zoom: 0.75;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: 0.5px solid #0000007a;
+    width: fit-content;
+    border-radius: 5px;
+    padding:  0px 5px;
+    transition: transform 0.2s ease-in-out;
+    background-color: #9d9d9d6f;
+  }
+
+  .claim-details h2:hover{
+    /* background-color: #fff; */
+    transform: scale(1.1);
+    font-weight: 455;
+  }
+
+  .claim-details strong{
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .claim-details p {
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+    font-size: 22px;
+    margin: 0;
+    margin: 20px;
+    font-weight: 300;
+  }
+
+  .simp button {
+    width: 30%;
+    background: #43434369;
+    border: 1.5px solid #000000;
+    border-radius: 2vh;
+    box-shadow: 5px 5px 5px rgba(89, 89, 89, 0.358);
+    color: #1a1a1a;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-size: 3.2vh;
+    transition: transform 0.2s ease;
+    padding: 3px 10px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .simp button:nth-of-type(1):hover {
+    background-color: #255a1e;
+    color: #ffffff;
+    transform: scale(1.1); /* Zoom in */
+    box-shadow: 8px 8px 5px rgba(89, 89, 89, 0.189);
+}
+
+.simp button:nth-of-type(2):hover {
+    background-color: #6d1718;
+    color: #ffffff;
+    transform: scale(1.1); /* Zoom in */
+    box-shadow: 8px 8px 5px rgba(89, 89, 89, 0.189);
+}
+
+  .claim-details-2 {
+    background: #6d1718;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80vh;
+    width: 100vh;
+    border-top-left-radius: 120vh;    
+    z-index: 10;
+    box-shadow: -2px -3px 10px #00000087;
+  }
